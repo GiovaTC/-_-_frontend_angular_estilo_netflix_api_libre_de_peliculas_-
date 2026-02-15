@@ -3,6 +3,10 @@
 
 <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/d1b5e17d-8da9-4d69-8d59-465143a98ddd" />  
 
+<img width="2550" height="1079" alt="image" src="https://github.com/user-attachments/assets/e057ae5d-9248-4f22-8dbd-018dcc864c0b" />    
+
+<img width="2551" height="1079" alt="image" src="https://github.com/user-attachments/assets/b12ff086-d06c-41ab-a382-539becd7b25d" />  
+
 A continuación se presenta un **frontend en Angular 20.3.9**, con **diseño tipo Netflix**, que consume una **API pública y libre** de películas (**sin API Key**), usando una **arquitectura clara** y **código listo para IntelliJ IDEA o VS Code**.
 
 ---
