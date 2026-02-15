@@ -1,0 +1,56 @@
+.hero {
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: white;
+
+  &::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, #000, transparent);
+  }
+
+  .hero-content {
+    position: absolute;
+    bottom: 60px;
+    left: 60px;
+    max-width: 600px;
+  }
+}
+
+.movie-row {
+  padding: 20px 60px;
+
+  h2 {
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  .movie-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+  }
+
+  .movie-card {
+    cursor: pointer;
+    transition: transform .3s;
+
+    img {
+      width: 100%;
+      border-radius: 6px;
+    }
+
+    &:hover {
+      transform: scale(1.08);
+    }
+
+    h3 {
+      color: #ccc;
+      font-size: 14px;
+      margin-top: 5px;
+    }
+  }
+}

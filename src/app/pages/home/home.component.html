@@ -1,0 +1,16 @@
+<div class="hero" [style.backgroundImage]="'url(' + featured?.movie_banner + ')'">
+    <div class = "hero-content">
+        <h1>{{ featured?.title }}</h1>
+        <p>{{ featured?.description }}</p>
+    </div>
+</div>
+
+<section class="movie-row">
+  <h2>Películas</h2>
+  <div class="movie-grid">
+    <div class="movie-card" *ngFor="let movie of movies">
+      <img [src]="movie.image" />
+      <h3>{{ movie.title }}</h3>
+    </div>
+  </div>
+</section>  
